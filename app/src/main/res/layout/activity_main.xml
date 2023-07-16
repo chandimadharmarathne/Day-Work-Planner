@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    android:padding="5dp"
+    android:background="@drawable/backgr"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Day Work Planner"
+            android:textAlignment="center"
+            android:textSize="50dp"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textStyle="bold"
+            android:textColorHighlight="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_teacher"
+            android:paddingTop="15dp"
+            android:text="Teacher"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:drawableTop="@drawable/ic_teacher"
+            android:drawablePadding="16dp"
+            android:background="#3DDDAB"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_student"
+            android:paddingTop="15dp"
+            android:text="Student"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:drawableTop="@drawable/ic_studentt"
+            android:drawablePadding="16dp"
+            android:background="#8BC34A"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

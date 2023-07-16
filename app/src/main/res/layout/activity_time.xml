@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/backgr"
+    tools:context=".TimeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="User ID : "
+            android:textColor="#FFFFFF"
+            android:textSize="1sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="1sp"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:hint="Username"
+            android:id="@+id/tvPhonexzy"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_date"
+        android:paddingTop="15dp"
+        android:hint="Select Date"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:drawableTop="@drawable/ic_date"
+        android:drawablePadding="16dp"
+        android:background="@android:drawable/editbox_background"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_time"
+        android:hint="Select Time"
+        android:paddingTop="15dp"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:drawableTop="@drawable/ic_time"
+        android:drawablePadding="16dp"
+        android:background="@android:drawable/editbox_background"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_addEvent"
+        android:hint="Add Event"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:paddingTop="15dp"
+        android:gravity="center"
+        android:drawableTop="@drawable/ic_event"
+        android:drawablePadding="16dp"
+        android:background="@android:drawable/editbox_background"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_addDes"
+        android:hint="Add Description"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:paddingTop="15dp"
+        android:gravity="center"
+        android:drawableTop="@drawable/des"
+        android:drawablePadding="16dp"
+        android:background="@android:drawable/editbox_background"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:text="                    Save Event? "
+            android:textSize="20dp"
+            android:textColor="#FF550455"
+            android:textStyle="italic"/>
+
+        <ImageButton
+            android:id="@+id/saveEvent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_save" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="25dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="day"
+            android:textSize="2dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/datep"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="day"
+            android:textSize="2dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/monthp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="day"
+            android:textSize="2dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/yearp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="day"
+            android:textSize="2dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/desexample"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

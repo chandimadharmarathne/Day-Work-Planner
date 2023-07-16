@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/backgr"
+    tools:context=".UpdateTeacher">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textStyle="italic"
+            android:textColor="#FFFFFF"
+            android:hint="User Name "
+            android:id="@+id/teacheruserFullName"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textStyle="italic"
+            android:textColor="#FFFFFF"
+            android:id="@+id/teacherphonenumberteacher"
+            android:hint="User ID : "
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="italic"
+            android:hint="Username"
+            android:id="@+id/teachertestuseridea"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/teacherbtn_dateTeacher"
+        android:paddingTop="15dp"
+        android:hint="Select Date"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:drawableTop="@drawable/ic_date"
+        android:drawablePadding="16dp"
+        android:background="@android:drawable/editbox_background"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/teacherbtn_timeTeacher"
+        android:hint="Select Time"
+        android:paddingTop="15dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:drawableTop="@drawable/ic_time"
+        android:drawablePadding="16dp"
+        android:background="@android:drawable/editbox_background"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/teacherbtn_addUserIDTeacher"
+        android:hint="Add User Id"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingTop="15dp"
+        android:gravity="center"
+        android:drawableTop="@drawable/ic_phone"
+        android:drawablePadding="16dp"
+        android:background="@android:drawable/editbox_background"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/teacherbtn_addEventTeacher"
+        android:hint="Add Event"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingTop="15dp"
+        android:gravity="center"
+        android:drawableTop="@drawable/ic_event"
+        android:drawablePadding="16dp"
+        android:background="@android:drawable/editbox_background"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/teacherbtn_addDesTexcher"
+        android:hint="Add Description"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingTop="15dp"
+        android:gravity="center"
+        android:drawableTop="@drawable/des"
+        android:drawablePadding="16dp"
+        android:background="@android:drawable/editbox_background"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View"
+            android:textSize="15dp"
+            android:layout_gravity="left"
+            android:layout_marginRight="90dp"
+            android:background="@color/teal_200"
+            android:id="@+id/teacherbtnTeacherView"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:textSize="15dp"
+            android:layout_gravity="right"
+            android:layout_marginLeft="90dp"
+            android:background="@color/teal_200"
+            android:id="@+id/teacherbtnTeacherSend"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="day"
+            android:textColor="#000000"
+            android:id="@+id/teacherdateteacher"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="month"
+            android:textColor="#000000"
+            android:id="@+id/teachermonthteacher"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="year"
+            android:textColor="#000000"
+            android:id="@+id/teacheryearteacher"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="des"
+            android:textColor="#000000"
+            android:id="@+id/teacherdesexampleteacher"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="des"
+            android:textColor="#000000"
+            android:id="@+id/teachernameset"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="day"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        android:id="@+id/teacherphonetextupdate"/>
+
+
+
+
+</LinearLayout>

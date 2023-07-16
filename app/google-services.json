@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "674858791828",
+    "project_id": "dayworkplan",
+    "storage_bucket": "dayworkplan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674858791828:android:7d8cdbee933721289f9581",
+        "android_client_info": {
+          "package_name": "com.example.dwp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674858791828-4pobrl9puf1i876bjrk3hdhae6hedvjo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPfBn9QBz4pGDTUi-NotioDCipqiLLUns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674858791828-4pobrl9puf1i876bjrk3hdhae6hedvjo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

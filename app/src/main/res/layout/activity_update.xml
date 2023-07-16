@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/backgr"
+    tools:context=".UpdateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp">
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_dateupdate"
+        android:paddingTop="15dp"
+        android:text="Edit Date"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:drawableTop="@drawable/ic_date"
+        android:drawablePadding="16dp"
+        android:background="@android:drawable/editbox_background"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_timeupdate"
+        android:text="Edit Time"
+        android:paddingTop="15dp"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:drawableTop="@drawable/ic_time"
+        android:drawablePadding="16dp"
+        android:background="@android:drawable/editbox_background"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_addEventupdate"
+        android:text="Edit Event"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:paddingTop="15dp"
+        android:gravity="center"
+        android:drawableTop="@drawable/ic_event"
+        android:drawablePadding="16dp"
+        android:background="@android:drawable/editbox_background"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/updes"
+        android:text="Edit Description"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:paddingTop="15dp"
+        android:gravity="center"
+        android:drawableTop="@drawable/des"
+        android:drawablePadding="16dp"
+        android:background="@android:drawable/editbox_background"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:text="             Update Event? "
+            android:textSize="20dp"
+            android:textColor="#FF550455"
+            android:textStyle="italic"/>
+
+        <ImageButton
+            android:id="@+id/saveupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_save" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="25dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="day0"
+            android:textColor="#000000"
+            android:textSize="12dp"
+            android:id="@+id/datepupdate"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="day1"
+            android:textColor="#000000"
+            android:textSize="12dp"
+            android:id="@+id/yearupdate"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="day2"
+            android:textColor="#000000"
+            android:textSize="12dp"
+            android:id="@+id/monthupdate"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="day3"
+            android:textColor="#000000"
+            android:textSize="12dp"
+            android:id="@+id/examupdate"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="day3"
+            android:textColor="#000000"
+            android:textSize="12dp"
+            android:id="@+id/timeupdate"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="day"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        android:id="@+id/phonetextupdate"/>
+
+
+</LinearLayout>
